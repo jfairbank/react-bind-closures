@@ -1,0 +1,36 @@
+{
+  "name": "react-bind-closures",
+  "version": "1.0.0-alpha.1",
+  "description": "Bind closures to stateless React components to avoid creating closures at render time",
+  "main": "lib/index.js",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "clean": "rm -rf lib",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jfairbank/react-bind-closures"
+  },
+  "keywords": [
+    "react",
+    "closure",
+    "closures",
+    "performance"
+  ],
+  "author": "Jeremy Fairbank <elpapapollo@gmail.com> (http://jeremyfairbank.com)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.5.2",
+    "babel-plugin-transform-object-rest-spread": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0"
+  }
+}
