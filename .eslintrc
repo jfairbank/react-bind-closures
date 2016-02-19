@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "new-cap": 0,
+    "no-param-reassign": [2, {"props": false}],
+    "spaced-comment": 0
+  }
+}
