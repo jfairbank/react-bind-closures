@@ -82,7 +82,7 @@ class TodoItem extends React.Component {
         </button>
       </li>
     );
-  },
+  }
 }
 ```
 
@@ -104,6 +104,8 @@ your stateless component just the same and never have to worry about writing
 Rewriting our previous example with `bindClosures` looks something like this:
 
 ```js
+import bindClosures from 'react-bind-closures';
+
 // Here `onComplete` will be the new bound closure created at mount time. It
 // knows to pass in the `id` to the original `onComplete` handler.
 let TodoItem = ({ title, onComplete }) => (
