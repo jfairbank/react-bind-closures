@@ -1,6 +1,6 @@
 {
   "name": "react-bind-closures",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "Bind closures to stateless React components to avoid creating closures at render time",
   "main": "lib/index.js",
   "files": [
